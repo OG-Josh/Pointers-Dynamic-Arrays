@@ -1,0 +1,64 @@
+Script started on Thu 28 Feb 2019 12:43:55 PM PST
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW07[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW07 $[00m ls -l[K[K[K[K[Kdate
+Thu Feb 28 12:44:05 PST 2019
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW07[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW07 $[00m ls -l
+total 16
+-rw-rw-r-- 1 cs1c cs1c 6128 Feb 28 12:34 hw07.cpp
+-rw-rw-r-- 1 cs1c cs1c 3200 Feb 28 12:35 hw07.h
+-rw-rw-r-- 1 cs1c cs1c    0 Feb 28 12:43 HW07.scr
+-rw-rw-r-- 1 cs1c cs1c  240 Feb 25 09:09 Makefile
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW07[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW07 $[00m make a[K[K all
+g++ -std=c++14 -Wall -g hw07.cpp -o hw07
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW07[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW07 $[00m ls -l
+total 88
+-rwxrwxr-x 1 cs1c cs1c 72632 Feb 28 12:44 [0m[01;32mhw07[0m
+-rw-rw-r-- 1 cs1c cs1c  6128 Feb 28 12:34 hw07.cpp
+-rw-rw-r-- 1 cs1c cs1c  3200 Feb 28 12:35 hw07.h
+-rw-rw-r-- 1 cs1c cs1c     0 Feb 28 12:43 HW07.scr
+-rw-rw-r-- 1 cs1c cs1c   240 Feb 25 09:09 Makefile
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW07[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW07 $[00m ./hw07
+Mark Inventory before Mark's purchase: 
+|Name                     |Cost      |Quantity  |
+-------------------------------------------------
+-------------------------------------------------
+|Cost before TAX:         |0
+|Cost after TAX:          |0
+++++++++++++++History+++++++++++++++++++++++++++++
+
+Mark Inventory after Mark's purchase: 
+|Name                     |Cost      |Quantity  |
+-------------------------------------------------
+|Nike basketball shoes    |145.99    |2         |
+|Under Armour T-shirt     |29.99     |3         |
+|Brooks running shoes     |111.44    |1         |
+|Nike shorts              |45.77     |4         |
+-------------------------------------------------
+|Cost before TAX:         |676.47
+|Cost after TAX:          |732.279
+++++++++++++++History+++++++++++++++++++++++++++++
+1 : 2 of Nike basketball shoes added to inventory with cost 145.99 per item.
+2 : 3 of Under Armour T-shirt added to inventory with cost 29.99 per item.
+3 : 1 of Brooks running shoes added to inventory with cost 111.44 per item.
+4 : 4 of Nike shorts added to inventory with cost 45.77 per item.
+
+The copy Inventory: 
+|Name                     |Cost      |Quantity  |
+-------------------------------------------------
+|Nike basketball shoes    |145.99    |2         |
+|Under Armour T-shirt     |29.99     |3         |
+|Brooks running shoes     |111.44    |1         |
+|Nike shorts              |45.77     |4         |
+-------------------------------------------------
+|Cost before TAX:         |676.47
+|Cost after TAX:          |732.279
+++++++++++++++History+++++++++++++++++++++++++++++
+1 : 2 of Nike basketball shoes added to inventory with cost 145.99 per item.
+2 : 3 of Under Armour T-shirt added to inventory with cost 29.99 per item.
+3 : 1 of Brooks running shoes added to inventory with cost 111.44 per item.
+4 : 4 of Nike shorts added to inventory with cost 45.77 per item.
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW07[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW07 $[00m 1
+1: command not found
+]0;cs1c@cs1c-VirtualBox ~/Desktop/HW07[01;32mcs1c@cs1c-VirtualBox[00m [01;34m~/Desktop/HW07 $[00m exit
+exit
+
+Script done on Thu 28 Feb 2019 12:44:46 PM PST
